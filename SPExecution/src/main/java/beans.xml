@@ -13,9 +13,9 @@
 
 <bean id="spHandler" class="com.vishnu.SPHandler">
 	<property name="driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"></property>
-	<property name="url" value="jdbc:sqlserver://LAPTOP-F3SGH6T9\\MSSQLSERVER1:1433;databaseName=Sample"></property>
-	<property name="user" value="vishnu"></property>
-	<property name="password" value="vishnu13"></property>
+	<property name="url" value="jdbc:sqlserver://server-name\\instance-name:port-number;databaseName=database-name"></property>
+	<property name="user" value="username"></property>
+	<property name="password" value="your-password"></property>
 </bean>
 
 <bean id="excelHandler" class="com.vishnu.ExcelHandler">
